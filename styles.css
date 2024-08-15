@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --color-neutral-0: #ffc0cb;
+    --color-neutral-10: #f5f5f5;
+    
+}
+
+*{
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+main{
+    height: 80vh;
+}
+footer{
+    width: 100%;
+    color: var(--color-neutral-10);
+}
+.footer_link{
+    text-decoration: none;
+}
+
+#footer_conteudo{
+    background-color: var(--color-neutral-0);
+    padding: 3rem 3.5rem;
+}
+
+#footer_conteudo h2{
+    margin-top: -7%;
+}
+
+#footer_contatos h1{
+    margin-bottom: 0.75rem;
+    color: black;
+}
+
+#footer_contatos h2{
+    margin-bottom: 0.75rem;
+    color: black;
+    margin-left: 75%;
+}
+
+#social-media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;  
+}
+
+#social-media .footer_link {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-10);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+}
+#social-media .footer_link:hover{
+    opacity: 0.8;
+}
+#social-media .footer_link i{
+    font-size: 1.25rem;
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook{
+    background-color: #4267b3;
+}
+
+#whatsapp{
+    background-color: #25d366;
+}
+
+#copyright{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+#logotipo-rodape{
+    width: 7rem;
+    height: 7rem;
+    margin-left: 45%;
+    
+}
+
+#email{
+    margin-left: 75%;
+    color: black;
+    margin-top: 0;
+}
